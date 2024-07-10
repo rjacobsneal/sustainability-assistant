@@ -1,4 +1,3 @@
-import streamlit as st
 from langchain_community.document_loaders import CSVLoader
 from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAIEmbeddings
@@ -7,6 +6,7 @@ from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 from translate import Translator
 from pyairtable import Api
+import streamlit as st
 import pandas as pd
 import os
 

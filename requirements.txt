@@ -1,9 +1,14 @@
 fastapi[all]
+streamlit
+langchain-community
+langchain-openai
+langchain-core
+python-dotenv
+pyairtable
+pandas
+translate
 openai
 python-dotenv
 pydantic==1.*
-langchain-community
 faiss-cpu
 tiktoken
-translate
-pyairtable
