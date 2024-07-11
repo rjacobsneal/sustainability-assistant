@@ -3,6 +3,8 @@ streamlit
 langchain-community
 langchain-openai
 langchain-core
+langchain_nomic
+nomic[local]
 python-dotenv
 pyairtable
 pandas
